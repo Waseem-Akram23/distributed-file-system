@@ -1,0 +1,62 @@
+body {
+  background-color: #175F8E; 
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  padding: 20px;
+  color: #214182;
+}
+
+.Span-Title-Text {
+  color: #F69D24;
+}
+
+main {
+  padding: 20px;
+  
+}
+
+.file-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;  /* Adjust this value based on your layout needs */
+  text-align: center;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #F69D24;
+  border: none;
+}
+
+.upload-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.upload-text {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .upload-button {
+      flex-direction: column;
+      gap: 4px;
+  }
+
+  .upload-text {
+      font-size: 16px;
+  }
+}
